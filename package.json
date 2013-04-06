@@ -1,0 +1,29 @@
+{"license": "",
+ "preferences":
+ [{"type": "string",
+   "name": "userId",
+   "title": "User Id"
+  },
+  {"type": "string",
+   "name": "apiKey",
+   "title": "Api key"
+  },
+  {"title": "List of vice hosts",
+   "type": "string",
+   "description": "comma separated list of forbidden hosts",
+   "value": "ya.ru,facebook.com,yandex.ru,habrahabr.ru", "name": "viceHosts"}],
+ "contributors":
+ [],
+ "author": "lexa_",
+ "url": "",
+ "name": "lexa_",
+ "dependencies":
+ ["api-utils",
+  "addon-kit"],
+ "version": "0.0.1",
+ "lib": "lib",
+ "fullName": "lexa_",
+ "main": "main",
+ "id": "jid0-KuqNUKRykiXpMJVVZdxrQmJA18w",
+ "description": ""
+}
