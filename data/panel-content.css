@@ -1,0 +1,2275 @@
+
+.connection {
+    height: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1020;
+}
+.connection > .alert {
+    border-radius: 0 0 4px 4px;
+    border-top: 0 none;
+    display: inline-block;
+    padding-right: 14px;
+}
+.f_weapon_6, .f_weapon_5, .f_weapon_4, .f_weapon_3, .f_weapon_2, .f_weapon_1, .f_weapon_0, .f_shield_5, .f_shield_4, .f_shield_3, .f_shield_2, .f_shield_1, .f_head_5_v2, .f_head_5_v1, .f_head_4_v2, .f_head_4_v1, .f_head_3_v2, .f_head_3_v1, .f_head_2_v2, .f_head_2_v1, .f_head_1, .f_head_0, .f_hair_white, .f_hair_brown, .f_hair_black, .f_hair_blond, .f_armor_5, .f_armor_4, .f_armor_3, .f_armor_2, .f_armor_1, .f_armor_0_v2, .f_armor_0_v1, .f_skin_dead, .f_skin_orc, .f_skin_asian, .f_skin_black, .f_skin_white {
+    background: url("img/sprites/female_sprites.png") no-repeat scroll 0 0 transparent;
+}
+.f_weapon_6 {
+    background-position: 0 0;
+    height: 90px;
+    width: 90px;
+}
+.f_weapon_5 {
+    background-position: -90px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_weapon_4 {
+    background-position: -180px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_weapon_3 {
+    background-position: -270px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_weapon_2 {
+    background-position: -360px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_weapon_1 {
+    background-position: -450px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_weapon_0 {
+    background-position: -540px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_shield_5 {
+    background-position: -630px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_shield_4 {
+    background-position: -720px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_shield_3 {
+    background-position: -810px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_shield_2 {
+    background-position: -900px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_shield_1 {
+    background-position: -990px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_5_v2 {
+    background-position: -1080px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_5_v1 {
+    background-position: -1170px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_4_v2 {
+    background-position: -1260px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_4_v1 {
+    background-position: -1350px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_3_v2 {
+    background-position: -1440px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_3_v1 {
+    background-position: -1530px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_2_v2 {
+    background-position: -1620px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_2_v1 {
+    background-position: -1710px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_1 {
+    background-position: -1800px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_head_0 {
+    background-position: -1890px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_hair_white {
+    background-position: -1980px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_hair_brown {
+    background-position: -2070px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_hair_black {
+    background-position: -2160px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_hair_blond {
+    background-position: -2250px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_armor_5 {
+    background-position: -2340px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_armor_4 {
+    background-position: -2430px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_armor_3 {
+    background-position: -2520px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_armor_2 {
+    background-position: -2610px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_armor_1 {
+    background-position: -2700px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_armor_0_v2 {
+    background-position: -2790px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_armor_0_v1 {
+    background-position: -2880px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_skin_dead {
+    background-position: -2970px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_skin_orc {
+    background-position: -3060px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_skin_asian {
+    background-position: -3150px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_skin_black {
+    background-position: -3240px 0;
+    height: 90px;
+    width: 90px;
+}
+.f_skin_white {
+    background-position: -3330px 0;
+    height: 90px;
+    width: 90px;
+}
+.customize-menu [class^="f_hair"], .customize-menu [class^="f_skin"], .customize-menu [class^="f_armor"], .customize-menu .f_head_0 {
+    height: 60px;
+    width: 60px;
+}
+.customize-menu .f_head_0 {
+    background-position: -1917px -9px;
+}
+.customize-menu .f_hair_white {
+    background-position: -2009px -8px;
+}
+.customize-menu .f_hair_brown {
+    background-position: -2099px -8px;
+}
+.customize-menu .f_hair_black {
+    background-position: -2189px -8px;
+}
+.customize-menu .f_hair_blond {
+    background-position: -2279px -8px;
+}
+.customize-menu .f_skin_dead {
+    background-position: -2997px -20px;
+}
+.customize-menu .f_skin_orc {
+    background-position: -3087px -20px;
+}
+.customize-menu .f_skin_asian {
+    background-position: -3177px -20px;
+}
+.customize-menu .f_skin_black {
+    background-position: -3267px -20px;
+}
+.customize-menu .f_skin_white {
+    background-position: -3357px -20px;
+}
+.customize-menu .f_armor_0_v2 {
+    background-position: -2819px -38px;
+}
+.customize-menu .f_armor_0_v1 {
+    background-position: -2909px -38px;
+}
+.m_weapon_6, .m_weapon_5, .m_weapon_4, .m_weapon_3, .m_weapon_2, .m_weapon_1, .m_weapon_0, .m_shield_5, .m_shield_4, .m_shield_3, .m_shield_2, .m_shield_1, .m_head_5, .m_head_4, .m_head_3, .m_head_2, .m_head_1, .m_head_0, .m_hair_blond, .m_hair_black, .m_hair_brown, .m_hair_white, .m_armor_5, .m_armor_4, .m_armor_3, .m_armor_2, .m_armor_1, .m_armor_0, .m_skin_dead, .m_skin_orc, .m_skin_asian, .m_skin_black, .m_skin_white {
+    background: url("img/sprites/male_sprites.png") no-repeat scroll 0 0 transparent;
+}
+.m_weapon_6 {
+    background-position: 0 0;
+    height: 90px;
+    width: 90px;
+}
+.m_weapon_5 {
+    background-position: -90px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_weapon_4 {
+    background-position: -180px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_weapon_3 {
+    background-position: -270px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_weapon_2 {
+    background-position: -360px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_weapon_1 {
+    background-position: -450px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_weapon_0 {
+    background-position: -540px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_shield_5 {
+    background-position: -630px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_shield_4 {
+    background-position: -720px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_shield_3 {
+    background-position: -810px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_shield_2 {
+    background-position: -900px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_shield_1 {
+    background-position: -990px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_head_5 {
+    background-position: -1080px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_head_4 {
+    background-position: -1170px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_head_3 {
+    background-position: -1260px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_head_2 {
+    background-position: -1350px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_head_1 {
+    background-position: -1440px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_head_0 {
+    background-position: -1530px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_hair_blond {
+    background-position: -1620px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_hair_black {
+    background-position: -1710px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_hair_brown {
+    background-position: -1800px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_hair_white {
+    background-position: -1890px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_armor_5 {
+    background-position: -1980px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_armor_4 {
+    background-position: -2070px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_armor_3 {
+    background-position: -2160px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_armor_2 {
+    background-position: -2250px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_armor_1 {
+    background-position: -2340px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_armor_0 {
+    background-position: -2430px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_skin_dead {
+    background-position: -2520px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_skin_orc {
+    background-position: -2610px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_skin_asian {
+    background-position: -2700px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_skin_black {
+    background-position: -2790px 0;
+    height: 90px;
+    width: 90px;
+}
+.m_skin_white {
+    background-position: -2880px 0;
+    height: 90px;
+    width: 90px;
+}
+.customize-menu [class^="m_hair"], .customize-menu [class^="m_skin"], .customize-menu .m_head_0 {
+    height: 60px;
+    width: 60px;
+}
+.customize-menu .m_head_0 {
+    background-position: -1557px -9px;
+}
+.customize-menu .m_hair_blond {
+    background-position: -1647px -4px;
+}
+.customize-menu .m_hair_black {
+    background-position: -1737px -4px;
+}
+.customize-menu .m_hair_brown {
+    background-position: -1827px -4px;
+}
+.customize-menu .m_hair_white {
+    background-position: -1917px -4px;
+}
+.customize-menu .m_skin_dead {
+    background-position: -2547px -20px;
+}
+.customize-menu .m_skin_orc {
+    background-position: -2637px -20px;
+}
+.customize-menu .m_skin_asian {
+    background-position: -2727px -20px;
+}
+.customize-menu .m_skin_black {
+    background-position: -2817px -20px;
+}
+.customize-menu .m_skin_white {
+    background-position: -2907px -20px;
+}
+.shop_weapon_6, .shop_weapon_5, .shop_weapon_4, .shop_weapon_3, .shop_weapon_2, .shop_weapon_1, .shop_shield_5, .shop_shield_4, .shop_shield_3, .shop_shield_2, .shop_shield_1, .shop_head_5, .shop_head_4, .shop_head_3, .shop_head_2, .shop_head_1, .shop_armor_5, .shop_armor_4, .shop_armor_3, .shop_armor_2, .shop_armor_1, .shop_reroll, .shop_potion, .shop_copper, .shop_silver, .shop_gold {
+    background: url("img/sprites/shop_sprites.png") no-repeat scroll 0 0 transparent;
+}
+.shop_weapon_6 {
+    background-position: 0 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_weapon_5 {
+    background-position: -40px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_weapon_4 {
+    background-position: -80px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_weapon_3 {
+    background-position: -120px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_weapon_2 {
+    background-position: -160px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_weapon_1 {
+    background-position: -200px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_shield_5 {
+    background-position: -240px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_shield_4 {
+    background-position: -280px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_shield_3 {
+    background-position: -320px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_shield_2 {
+    background-position: -360px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_shield_1 {
+    background-position: -400px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_head_5 {
+    background-position: -440px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_head_4 {
+    background-position: -480px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_head_3 {
+    background-position: -520px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_head_2 {
+    background-position: -560px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_head_1 {
+    background-position: -600px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_armor_5 {
+    background-position: -640px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_armor_4 {
+    background-position: -680px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_armor_3 {
+    background-position: -720px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_armor_2 {
+    background-position: -760px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_armor_1 {
+    background-position: -800px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_reroll {
+    background-position: -840px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_potion {
+    background-position: -880px 0;
+    height: 40px;
+    width: 40px;
+}
+.shop_copper {
+    background-position: -923px -8px;
+    height: 22px;
+    width: 32px;
+}
+.shop_silver {
+    background-position: -963px -8px;
+    height: 22px;
+    width: 32px;
+}
+.shop_gold {
+    background-position: -1003px -8px;
+    height: 22px;
+    width: 32px;
+}
+.color-worst {
+    background-color: #E6B8AF;
+}
+.color-worst .action-yesno label, .color-worst .task-action-btn {
+    background-color: #C96652;
+}
+.color-worst .action-yesno label:hover, .color-worst .task-action-btn:hover, .color-worst .action-yesno label:focus, .color-worst .task-action-btn:focus {
+    background-color: #B94F3A;
+}
+.color-worst .task-options {
+    background-color: #E6B8AF;
+}
+.color-worse {
+    background-color: #F4CCCC;
+}
+.color-worse .action-yesno label, .color-worse .task-action-btn {
+    background-color: #DC5D5D;
+}
+.color-worse .action-yesno label:hover, .color-worse .task-action-btn:hover, .color-worse .action-yesno label:focus, .color-worse .task-action-btn:focus {
+    background-color: #D43939;
+}
+.color-worse .task-options {
+    background-color: #F4CCCC;
+}
+.color-bad {
+    background-color: #FCE5CD;
+}
+.color-bad .action-yesno label, .color-bad .task-action-btn {
+    background-color: #F4A24C;
+}
+.color-bad .action-yesno label:hover, .color-bad .task-action-btn:hover, .color-bad .action-yesno label:focus, .color-bad .task-action-btn:focus {
+    background-color: #F28B21;
+}
+.color-bad .task-options {
+    background-color: #FCE5CD;
+}
+.color-neutral {
+    background-color: #FFF2CC;
+}
+.color-neutral .action-yesno label, .color-neutral .task-action-btn {
+    background-color: #FFCF42;
+}
+.color-neutral .action-yesno label:hover, .color-neutral .task-action-btn:hover, .color-neutral .action-yesno label:focus, .color-neutral .task-action-btn:focus {
+    background-color: #FFC314;
+}
+.color-neutral .task-options {
+    background-color: #FFF2CC;
+}
+.color-good {
+    background-color: #D9EAD3;
+}
+.color-good .action-yesno label, .color-good .task-action-btn {
+    background-color: #8BBF79;
+}
+.color-good .action-yesno label:hover, .color-good .task-action-btn:hover, .color-good .action-yesno label:focus, .color-good .task-action-btn:focus {
+    background-color: #71B05B;
+}
+.color-good .task-options {
+    background-color: #D9EAD3;
+}
+.color-better {
+    background-color: #D0E0E3;
+}
+.color-better .action-yesno label, .color-better .task-action-btn {
+    background-color: #7EAAB2;
+}
+.color-better .action-yesno label:hover, .color-better .task-action-btn:hover, .color-better .action-yesno label:focus, .color-better .task-action-btn:focus {
+    background-color: #6398A2;
+}
+.color-better .task-options {
+    background-color: #D0E0E3;
+}
+.color-best {
+    background-color: #C9DAF8;
+}
+.color-best .action-yesno label, .color-best .task-action-btn {
+    background-color: #5288E9;
+}
+.color-best .action-yesno label:hover, .color-best .task-action-btn:hover, .color-best .action-yesno label:focus, .color-best .task-action-btn:focus {
+    background-color: #2A6DE3;
+}
+.color-best .task-options {
+    background-color: #C9DAF8;
+}
+.completed {
+    background-color: #D9D9D9;
+    color: #999999;
+}
+.completed .task-checker label {
+    background-color: #989898;
+}
+.completed .task-action-btn {
+    background-color: #989898;
+}
+.reward {
+    background-color: #FFFFFF;
+}
+.task-column {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #CCCCCC;
+    font-family: 'Lato',sans-serif;
+    padding: 1.5em;
+}
+.task-column .task-column_title {
+    margin: 0 0 0.5em;
+    padding: 0;
+}
+.addtask-form {
+    background-color: #FFFFFF;
+    margin-bottom: 0.75em;
+    outline: 1px solid rgba(0, 0, 0, 0.15);
+    outline-offset: -1px;
+    position: relative;
+}
+.addtask-field {
+    display: block;
+    width: 100%;
+}
+.addtask-field input {
+    background-color: #FFFFFF;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    font-family: 'Lato',sans-serif;
+    height: 3em;
+    outline: 0 none;
+    padding: 0 0 0 0.5em;
+    width: 100%;
+}
+.addtask-field input:focus {
+    box-shadow: 0 0 3px #7AA4EE inset, -1px 0 1px #5288E9 inset;
+}
+.addtask-btn {
+    background-color: #8DB1F0;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    font-size: 1.61em;
+    height: 1.88em;
+    line-height: 1.7;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.81818em !important;
+}
+.addtask-btn:hover, .addtask-btn:focus {
+    background-color: #7AA4EE;
+}
+.addtask-btn:active {
+    background-color: #5288E9;
+}
+.task {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset;
+    clear: both;
+    list-style: none outside none;
+    margin-bottom: 0.75em;
+    min-height: 3em;
+    padding: 0;
+    position: relative;
+}
+.task:hover {
+}
+.task:last-child {
+    margin-bottom: 0;
+}
+.task-text {
+    display: block;
+    line-height: 1.4;
+    padding: 0.75em 0 0.75em 3.5em;
+}
+.habit-wide .task-text {
+    padding-left: 7em;
+}
+.task.ui-sortable-helper {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15), 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.task-controls {
+    display: inline-block;
+    float: left;
+    margin-left: -0.5em;
+    margin-right: 0.5em;
+}
+.task-controls.task-primary {
+    bottom: 0;
+    float: none;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+.task-action-btn {
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+    color: #222222;
+    display: inline-block;
+    font-size: 1.41em;
+    height: 2.12765em;
+    line-height: 2.12765;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+    width: 2.12765em;
+}
+.task-action-btn:last-child {
+    border: 0 none;
+}
+.task-action-btn:hover, .task-action-btn:focus {
+    color: #222222;
+    text-decoration: none;
+}
+.task-checker input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+.task-checker label {
+    cursor: pointer;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    vertical-align: top;
+    width: 3em;
+}
+.action-plusminus label {
+    margin-right: 1.5em;
+}
+.action-plusminus label:after {
+    background-color: #DDDDDD;
+    color: #222222;
+    display: inline-block;
+    font-size: 1.41em;
+    height: 2.12765em;
+    line-height: 2.12765;
+    opacity: 0.3;
+    outline: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+    vertical-align: top;
+    width: 2.12765em;
+}
+.action-plusminus label[for$="plus"]:after {
+    content: "＋";
+}
+.action-plusminus label[for$="minus"]:after {
+    content: "−";
+}
+.action-plusminus.select-toggle input[type="checkbox"]:checked + label:after {
+    filter: none;
+    opacity: 1;
+}
+.action-yesno {
+    position: relative;
+}
+.action-yesno label:after, .action-yesno label:before {
+    color: #000000;
+    content: "";
+    display: block;
+    font-size: 1.75em;
+    height: 1.71429em;
+    line-height: 1.71429em;
+    opacity: 0.2;
+    text-align: center;
+    width: 1.71429em;
+}
+.action-yesno label:after {
+    content: "◻";
+}
+.action-yesno label:before {
+    left: 0;
+    position: absolute;
+}
+.action-yesno label:hover:before, .action-yesno label:focus:before {
+    content: "";
+}
+.action-yesno label:hover:after, .action-yesno label:focus:after {
+    content: "¬";
+    font-size: 3.2em;
+    height: 0.9375em;
+    line-height: 0.9375em;
+    opacity: 0.5 !important;
+    text-align: center;
+    transform: rotate(135deg);
+    width: 1.15em;
+}
+.action-yesno label:active:after {
+    opacity: 0.75 !important;
+}
+.action-yesno input[type="checkbox"]:checked + label:after {
+    content: "¬";
+    font-size: 3.2em;
+    height: 0.9375em;
+    line-height: 0.9375em;
+    opacity: 0.75;
+    text-align: center;
+    transform: rotate(135deg);
+    width: 1.15em;
+}
+.task-meta-controls {
+    float: right;
+    height: 1em;
+    margin: 0.75em 0.5em 0 0.25em;
+    opacity: 0.25;
+}
+.task-meta-controls a > i {
+    margin-left: 0.125em;
+}
+.task-meta-controls .task-notes {
+    margin-left: 0.125em;
+}
+.task:hover .task-meta-controls {
+    filter: none;
+    opacity: 1;
+}
+.popover {
+    line-height: 1.5;
+}
+form {
+    margin-bottom: 0;
+}
+[class$="-options"] {
+    color: #333333;
+    padding: 1em 1em 0;
+    position: relative;
+    z-index: 0;
+}
+[class$="-options"] .option-group {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+    padding: 0 0 1em;
+}
+[class$="-options"] .option-title {
+    border: 0 none;
+    color: #333333;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0 0 0.5em;
+    padding: 0;
+}
+[class$="-options"] .option-title:not(.mega):after {
+    content: ":";
+}
+[class$="-options"] .option-title.mega {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+[class$="-options"] .option-content {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    font-family: 'Lato',sans-serif;
+    height: 2.5em;
+    margin: 0 0 1em;
+    outline: 0 none;
+    padding: 0 0 0 0.5em;
+    width: 100%;
+}
+[class$="-options"] textarea.option-content {
+    height: 5em;
+    margin-bottom: 0;
+    padding-top: 0.25em;
+    resize: none;
+}
+.option-short .option-content {
+    display: inline-block;
+    width: 3em;
+}
+.option-short .input-suffix {
+    padding-left: 0.25em;
+    vertical-align: 20%;
+}
+.option-medium .option-content {
+    display: inline-block;
+    width: 6em;
+}
+.option-medium .input-suffix {
+    padding-left: 0.25em;
+    vertical-align: 20%;
+}
+.task-controls.tile-group {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+.task-action-btn.tile {
+    border: 0 none;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.15em;
+    font-weight: 300;
+    margin: 0 0 0 3px;
+    opacity: 0.5;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+    outline-offset: -1px;
+    padding: 0 0.5em;
+    text-align: inherit;
+    width: auto;
+}
+.task-action-btn.tile.active {
+    filter: none;
+    opacity: 1;
+}
+.tile.solid {
+    filter: none;
+    opacity: 1;
+}
+.tile.spacious {
+    filter: none;
+    font-size: 1.25em;
+    margin: 0.75em 0;
+    opacity: 1;
+}
+.tile.bright {
+    background-color: #D4E1F9;
+}
+.tile.bright:hover, .tile.bright:focus {
+    background-color: #DFE9FB;
+}
+.tile.flush {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    line-height: 2em;
+    margin-left: 0;
+    outline: 0 none;
+}
+.tile.flush:first-child {
+    border-right: 0 none;
+}
+.context-enabled .display-context-dependant, .context-enabled .task-list li {
+    display: none;
+}
+.context-enabled.context-completed .show-for-completed, .context-enabled.context-completed .completed {
+    display: block;
+}
+.context-enabled.context-uncompleted .show-for-uncompleted, .context-enabled.context-uncompleted .uncompleted {
+    display: block;
+}
+.nav-tabs {
+    margin-top: 1.5em;
+}
+.nav-tabs > li.active > a {
+    color: #333333;
+}
+.nav-tabs > li.active > a:hover {
+    margin-top: 1px;
+}
+.nav-tabs > li > a {
+    border-radius: 0 0 0 0 !important;
+    color: #333333;
+    margin-top: 1px;
+}
+.nav-tabs > li > a:hover {
+    border-top: 0 none;
+    margin-top: 2px;
+}
+.herobox {
+    background: none repeat scroll 0 0 #F5F5F5;
+    cursor: pointer;
+    height: 10.5em;
+    margin: 0;
+    max-width: 10em;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    position: relative;
+    transition: padding 0.13s ease-out 0s, border 0.25s ease-out 0s, background 0.25s ease-out 0s;
+    width: 10em;
+}
+.herobox:after {
+    background: none repeat scroll 0 0 #B2D4A6;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000000;
+    content: attr(data-name);
+    display: block;
+    line-height: 2;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: opacity 0.2s ease-out 0s;
+    width: 100%;
+}
+.herobox:after {
+    opacity: 0;
+}
+.herobox[data-checkuser="isUser"]:after {
+    background: none repeat scroll 0 0 #A7C5CB;
+    filter: none;
+    opacity: 1;
+}
+.herobox:not([data-checkpet="hasPet"]) {
+    padding-top: 1.75em;
+}
+.herobox[data-checkpet="hasPet"][data-checkuser="isUser"] {
+    padding-top: 3.25em;
+}
+.herobox:not([data-checkuser="isUser"]) {
+    outline: 0 none;
+}
+.herobox:hover, .herobox:focus {
+    background: none repeat scroll 0 0 #DFE9EA;
+}
+.herobox:hover:after, .herobox:focus:after {
+    filter: none;
+    opacity: 1;
+}
+.herobox[data-checkpet="hasPet"]:hover, .herobox[data-checkpet="hasPet"]:focus {
+    padding-top: 3.25em;
+}
+.herobox:hover:not([data-checkpet="hasPet"]), .herobox:focus:not([data-checkpet="hasPet"]) {
+    padding-top: 2.5em;
+}
+.herobox .character-sprites {
+    height: 6.42857em;
+    margin: 0 auto;
+    width: 6.42857em;
+}
+.herobox .character-sprites span, .herobox .pet {
+    position: absolute;
+}
+.avatar-window {
+    float: right;
+    margin: 0 1em 0 0;
+}
+menu {
+    margin: 0;
+    padding: 0;
+}
+.customize-menu {
+    list-style: none outside none;
+    padding: 0 0 10px;
+    width: 70%;
+}
+.customize-menu menu:before {
+    content: attr(label);
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+}
+.customize-option {
+    background-color: #EDEDED;
+    border: 1px solid #808080;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.5s ease-out 0s;
+}
+.customize-option:active {
+    background-color: #FFF2CC;
+    transition: none 0s ease 0s;
+}
+.customize-option:not(:last-of-type) {
+    margin-right: 10px;
+}
+.avatar-window {
+    float: none;
+    margin-bottom: 1em;
+}
+.customize-menu {
+    width: 100%;
+}
+.money {
+    display: inline-block;
+    line-height: 1.5em;
+    padding-left: 0.75em;
+}
+.money [class^="shop_"] {
+    display: inline-block;
+    vertical-align: top;
+}
+.btn-buy {
+    background-color: #D0E0E3;
+    color: #555555;
+    height: 100%;
+    min-height: 3em;
+    padding: 0.75em 0 0 0.5em;
+    text-align: center;
+    vertical-align: top;
+    width: 4.5em;
+}
+.btn-buy:hover, .btn-buy:focus {
+    background-color: #FCE5CD;
+    text-decoration: none;
+}
+.rewards {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+}
+.reward-item {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.reward-cost {
+    display: inline;
+}
+.rewards .task-text {
+    padding-left: 5em;
+}
+.rewards .task-options {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.btn-reroll {
+    background-color: #D0E0E3;
+    box-shadow: -1px -1px 0 rgba(0, 0, 0, 0.1) inset;
+    cursor: pointer;
+    padding-left: 0.25em;
+    width: 2.5em;
+}
+.btn-reroll:hover, .btn-reroll:focus {
+    background-color: #FCE5CD;
+}
+.item-img {
+    border-bottom: 0 none;
+    border-top: 0 none;
+    display: inline-block;
+    float: left;
+    height: 3em;
+    margin-left: -0.5em;
+    margin-right: 0.5em;
+    vertical-align: top;
+}
+.token-wallet {
+    cursor: pointer;
+}
+.token-wallet .tile {
+    background-color: #FFE69E;
+}
+.token-wallet .add-token-btn {
+    opacity: 0;
+}
+.token-wallet:hover .add-token-btn, .token-wallet:focus .add-token-btn {
+    background-color: #D9EAD3;
+    filter: none;
+    opacity: 1;
+}
+.token-wallet:hover .tile, .token-wallet:focus .tile {
+    filter: none;
+    opacity: 1;
+}
+.pet-grid {
+    border-top: medium none rgba(0, 0, 0, 0.1);
+    padding-top: 1.5em;
+}
+.pet-grid table {
+    width: 100%;
+}
+.pet-grid td {
+    padding: 0.5em;
+    width: 25%;
+}
+.pet-grid td.active-pet {
+    background-color: #FCE5CD;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+    outline-offset: -1px;
+}
+.pet-grid td:hover, .pet-grid td:focus {
+    background-color: #B5CED3;
+}
+.current-pet {
+    bottom: 0;
+    left: 0;
+}
+.item-drop-icon {
+    float: left;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.Pet_Food_Base, .Pet_Food_Zombie, .Pet_Food_White, .Pet_Food_Veteran, .Pet_Food_Skeleton, .Pet_Food_Shade, .Pet_Food_Red, .Pet_Food_Golden, .Pet_Food_Desert, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Zombie, .Pet_Food_White, .Pet_Food_Skeleton, .Pet_Food_Shade, .Pet_Food_Red, .Pet_Food_Golden, .Pet_Food_Desert, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Base, .Pet_Food_Base, .Pet_Food_Zombie, .Pet_Food_White, .Pet_Food_Skeleton, .Pet_Food_Shade, .Pet_Food_Red, .Pet_Food_Golden, .Pet_Food_Desert, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Base, .Pet_Food_Zombie, .Pet_Food_White, .Pet_Food_Skeleton, .Pet_Food_Shade, .Pet_Food_Red, .Pet_Food_Golden, .Pet_Food_Desert, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Base, .Pet_Food_Zombie, .Pet_Food_White, .Pet_Food_Skeleton, .Pet_Food_Shade, .Pet_Food_Red, .Pet_Food_Golden, .Pet_Food_Desert, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Base, .Pet_Food_Zombie, .Pet_Food_White, .Pet_Food_Skeleton, .Pet_Food_Shade, .Pet_Food_Red, .Pet_Food_Golden, .Pet_Food_Desert, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Base, .Pet_Food_Zombie, .Pet_Food_White, .Pet_Food_Skeleton, .Pet_Food_Shade, .Pet_Food_Red, .Pet_Food_Golden, .Pet_Food_Desert, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Base, .Pet_Food_SugarCube, .Pet_Food_Strawberry, .Pet_Food_Rotten, .Pet_Food_Licorice, .Pet_Food_Golden, .Pet_Food_Cream, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Chocolate, .Pet_Food_Base, .Pet_Food_Zombie, .Pet_Food_White, .Pet_Food_Skeleton, .Pet_Food_Shade, .Pet_Food_Red, .Pet_Food_Golden, .Pet_Food_Desert, .Pet_Food_CottonCandyPink, .Pet_Food_CottonCandyBlue, .Pet_Food_Base {
+    background: url("/img/hatching_powder.png") no-repeat scroll 0 0 transparent;
+    height: 34px;
+    width: 34px;
+}
+.inventory-list li {
+    clear: both;
+}
+.pets-menu > div {
+    float: left;
+}
+.hatchingPotions-menu > div {
+    float: left;
+}
+.new-stuff {
+    height: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1010;
+}
+.new-stuff > .alert {
+    border-radius: 0 0 4px 4px;
+    border-top: 0 none;
+    display: inline-block;
+    padding-right: 14px;
+}
+.alert-gp {
+    background-color: #FBEFC0;
+    border-color: #F6DA6D;
+    color: #786938;
+}
+.alert-hp {
+    background-color: #F2DEDE;
+    border-color: #D89B9B;
+    color: #B94A48;
+}
+.alert-lvl {
+    background-color: #D9EDF7;
+    border-color: #8CC9E7;
+    color: #3A87AD;
+}
+.alert-xp {
+    background-color: #DCC0FB;
+    border-color: #AE6DF6;
+    color: #635673;
+}
+.alert-death {
+    background-color: #4E4E4E;
+    border-color: #4E4E4E;
+    color: #ABABAB;
+}
+.icon-gold {
+    background: url("img/coin_single_gold.png") no-repeat scroll center center / 18px auto transparent;
+    height: 14px;
+    width: 14px;
+}
+.icon-silver {
+    background: url("img/coin_single_silver.png") no-repeat scroll center center / 18px auto transparent;
+    height: 14px;
+    width: 14px;
+}
+.icon-death {
+    background: url("img/sprites/dead.png") no-repeat scroll center center / 14px auto transparent;
+    height: 14px;
+    width: 14px;
+}
+.undo-button {
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    z-index: 3000;
+}
+.Pet-Wolf-Zombie, .Pet-Wolf-White, .Pet-Wolf-Veteran, .Pet-Wolf-Skeleton, .Pet-Wolf-Shade, .Pet-Wolf-Red, .Pet-Wolf-Golden, .Pet-Wolf-Desert, .Pet-Wolf-CottonCandyPink, .Pet-Wolf-CottonCandyBlue, .Pet-TigerCub-Zombie, .Pet-TigerCub-White, .Pet-TigerCub-Skeleton, .Pet-TigerCub-Shade, .Pet-TigerCub-Red, .Pet-TigerCub-Golden, .Pet-TigerCub-Desert, .Pet-TigerCub-CottonCandyPink, .Pet-TigerCub-CottonCandyBlue, .Pet-TigerCub-Base, .Pet-PolarBearCub-Base, .Pet-PandaCub-Zombie, .Pet-PandaCub-White, .Pet-PandaCub-Skeleton, .Pet-PandaCub-Shade, .Pet-PandaCub-Red, .Pet-PandaCub-Golden, .Pet-PandaCub-Desert, .Pet-PandaCub-CottonCandyPink, .Pet-PandaCub-CottonCandyBlue, .Pet-PandaCub-Base, .Pet-LionCub-Zombie, .Pet-LionCub-White, .Pet-LionCub-Skeleton, .Pet-LionCub-Shade, .Pet-LionCub-Red, .Pet-LionCub-Golden, .Pet-LionCub-Desert, .Pet-LionCub-CottonCandyPink, .Pet-LionCub-CottonCandyBlue, .Pet-LionCub-Base, .Pet-Fox-Zombie, .Pet-Fox-White, .Pet-Fox-Skeleton, .Pet-Fox-Shade, .Pet-Fox-Red, .Pet-Fox-Golden, .Pet-Fox-Desert, .Pet-Fox-CottonCandyPink, .Pet-Fox-CottonCandyBlue, .Pet-Fox-Base, .Pet-FlyingPig-Zombie, .Pet-FlyingPig-White, .Pet-FlyingPig-Skeleton, .Pet-FlyingPig-Shade, .Pet-FlyingPig-Red, .Pet-FlyingPig-Golden, .Pet-FlyingPig-Desert, .Pet-FlyingPig-CottonCandyPink, .Pet-FlyingPig-CottonCandyBlue, .Pet-FlyingPig-Base, .Pet-Dragon-Zombie, .Pet-Dragon-White, .Pet-Dragon-Skeleton, .Pet-Dragon-Shade, .Pet-Dragon-Red, .Pet-Dragon-Golden, .Pet-Dragon-Desert, .Pet-Dragon-CottonCandyPink, .Pet-Dragon-CottonCandyBlue, .Pet-Dragon-Base, .Pet-Cactus-Skeleton, .Pet-Cactus-Red, .Pet-Cactus-Zombie, .Pet-Cactus-Shade, .Pet-Cactus-Golden, .Pet-Cactus-White, .Pet-Cactus-CottonCandyPink, .Pet-Cactus-CottonCandyBlue, .Pet-Cactus-Desert, .Pet-Cactus-Base, .Pet-BearCub-Zombie, .Pet-BearCub-White, .Pet-BearCub-Skeleton, .Pet-BearCub-Shade, .Pet-BearCub-Red, .Pet-BearCub-Golden, .Pet-BearCub-Desert, .Pet-BearCub-CottonCandyPink, .Pet-BearCub-CottonCandyBlue, .Pet-BearCub-Base, .Pet-Wolf-Base {
+    background: url("/img/sprites/pet_sprites.png") no-repeat scroll 0 0 transparent;
+}
+.Pet-Wolf-Zombie {
+    background-position: 0 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-White {
+    background-position: -81px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-Veteran {
+    background-position: -162px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-Skeleton {
+    background-position: -243px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-Shade {
+    background-position: -324px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-Red {
+    background-position: -405px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-Golden {
+    background-position: -486px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-Desert {
+    background-position: -567px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-CottonCandyPink {
+    background-position: -648px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-CottonCandyBlue {
+    background-position: -729px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-Zombie {
+    background-position: -810px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-White {
+    background-position: -891px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-Skeleton {
+    background-position: -972px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-Shade {
+    background-position: -1053px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-Red {
+    background-position: -1134px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-Golden {
+    background-position: -1215px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-Desert {
+    background-position: -1296px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-CottonCandyPink {
+    background-position: -1377px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-CottonCandyBlue {
+    background-position: -1458px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-TigerCub-Base {
+    background-position: -1539px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PolarBearCub-Base {
+    background-position: -1620px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-Zombie {
+    background-position: -1701px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-White {
+    background-position: -1782px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-Skeleton {
+    background-position: -1863px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-Shade {
+    background-position: -1944px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-Red {
+    background-position: -2025px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-Golden {
+    background-position: -2106px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-Desert {
+    background-position: -2187px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-CottonCandyPink {
+    background-position: -2268px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-CottonCandyBlue {
+    background-position: -2349px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-PandaCub-Base {
+    background-position: -2430px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-Zombie {
+    background-position: -2511px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-White {
+    background-position: -2592px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-Skeleton {
+    background-position: -2673px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-Shade {
+    background-position: -2754px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-Red {
+    background-position: -2835px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-Golden {
+    background-position: -2916px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-Desert {
+    background-position: -2997px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-CottonCandyPink {
+    background-position: -3078px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-CottonCandyBlue {
+    background-position: -3159px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-LionCub-Base {
+    background-position: -3240px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-Zombie {
+    background-position: -3321px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-White {
+    background-position: -3402px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-Skeleton {
+    background-position: -3483px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-Shade {
+    background-position: -3564px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-Red {
+    background-position: -3645px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-Golden {
+    background-position: -3726px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-Desert {
+    background-position: -3807px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-CottonCandyPink {
+    background-position: -3888px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-CottonCandyBlue {
+    background-position: -3969px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Fox-Base {
+    background-position: -4050px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-Zombie {
+    background-position: -4131px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-White {
+    background-position: -4212px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-Skeleton {
+    background-position: -4293px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-Shade {
+    background-position: -4374px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-Red {
+    background-position: -4455px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-Golden {
+    background-position: -4536px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-Desert {
+    background-position: -4617px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-CottonCandyPink {
+    background-position: -4698px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-CottonCandyBlue {
+    background-position: -4779px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-FlyingPig-Base {
+    background-position: -4860px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-Zombie {
+    background-position: -4941px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-White {
+    background-position: -5022px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-Skeleton {
+    background-position: -5103px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-Shade {
+    background-position: -5184px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-Red {
+    background-position: -5265px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-Golden {
+    background-position: -5346px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-Desert {
+    background-position: -5427px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-CottonCandyPink {
+    background-position: -5508px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-CottonCandyBlue {
+    background-position: -5589px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Dragon-Base {
+    background-position: -5670px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-Zombie {
+    background-position: -5913px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-White {
+    background-position: -6156px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-Skeleton {
+    background-position: -5751px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-Red {
+    background-position: -5832px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-Shade {
+    background-position: -5994px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-Golden {
+    background-position: -6075px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-Desert {
+    background-position: -6399px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-CottonCandyPink {
+    background-position: -6237px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-CottonCandyBlue {
+    background-position: -6318px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Cactus-Base {
+    background-position: -6480px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-Zombie {
+    background-position: -6561px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-White {
+    background-position: -6642px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-Skeleton {
+    background-position: -6723px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-Shade {
+    background-position: -6804px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-Red {
+    background-position: -6885px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-Golden {
+    background-position: -6966px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-Desert {
+    background-position: -7047px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-CottonCandyPink {
+    background-position: -7128px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-CottonCandyBlue {
+    background-position: -7209px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-BearCub-Base {
+    background-position: -7290px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Wolf-Base {
+    background-position: -7371px 0;
+    height: 99px;
+    width: 81px;
+}
+.Pet-Egg {
+    background: url("/img/sprites/egg.png") no-repeat scroll 0 0 transparent;
+    height: 42px;
+    width: 39px;
+}
+.Pet_Egg_Wolf, .Pet_Egg_TigerCub, .Pet_Egg_PolarBear, .Pet_Egg_PandaCub, .Pet_Egg_LionCub, .Pet_Egg_Fox, .Pet_Egg_FlyingPig, .Pet_Egg_Dragon, .Pet_Egg_Cactus, .Pet_Egg_BearCub, .Pet_HatchingPotion_Base, .Pet_HatchingPotion_White, .Pet_HatchingPotion_Desert, .Pet_HatchingPotion_Red, .Pet_HatchingPotion_Shade, .Pet_HatchingPotion_Skeleton, .Pet_HatchingPotion_Zombie, .Pet_HatchingPotion_CottonCandyPink, .Pet_HatchingPotion_CottonCandyBlue, .Pet_HatchingPotion_Golden, .Pet_Currency_Gem, .Pet_Currency_Gem2x, .Pet_Currency_Gem1x {
+    background: url("/img/sprites/Egg_Sprite_Sheet.png") no-repeat scroll 0 0 transparent;
+}
+.Pet_Egg_Wolf {
+    background-position: 0 0;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_TigerCub {
+    background-position: 0 -51px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_PolarBear {
+    background-position: 0 -102px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_PandaCub {
+    background-position: 0 -153px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_LionCub {
+    background-position: 0 -204px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_Fox {
+    background-position: 0 -255px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_FlyingPig {
+    background-position: 0 -306px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_Dragon {
+    background-position: 0 -357px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_Cactus {
+    background-position: 0 -408px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_Egg_BearCub {
+    background-position: 0 -459px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_Base {
+    background-position: -48px 0;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_White {
+    background-position: -48px -51px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_Desert {
+    background-position: -48px -102px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_Red {
+    background-position: -48px -153px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_Shade {
+    background-position: -48px -204px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_Skeleton {
+    background-position: -48px -255px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_Zombie {
+    background-position: -48px -306px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_CottonCandyPink {
+    background-position: -48px -357px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_CottonCandyBlue {
+    background-position: -48px -408px;
+    height: 51px;
+    width: 48px;
+}
+.Pet_HatchingPotion_Golden {
+    background-position: -48px -459px;
+    height: 54px;
+    width: 48px;
+}
+.Pet_Currency_Gem {
+    background-position: 0 -510px;
+    height: 45px;
+    width: 51px;
+}
+.Pet_Currency_Gem2x {
+    background-position: -55px -513px;
+    height: 30px;
+    width: 34px;
+}
+.Pet_Currency_Gem1x {
+    background-position: -63px -542px;
+    height: 17px;
+    width: 19px;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+.visuallyhidden {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+.invisible {
+    visibility: hidden;
+}
+.full {
+    width: 100%;
+}
+.half {
+    width: 50%;
+}
+.third {
+    width: 33.3333%;
+}
+.two-thirds {
+    width: 66.6666%;
+}
+.quarter {
+    width: 25%;
+}
+.three-quarters {
+    width: 75%;
+}
+.fifth {
+    width: 20%;
+}
+.two-fifths {
+    width: 40%;
+}
+.three-fifths {
+    width: 60%;
+}
+.four-fifths {
+    width: 80%;
+}
+.sixth {
+    width: 16.6667%;
+}
+.eighth {
+    width: 12.5%;
+}
+.tenth {
+    width: 10%;
+}
+.twelfth {
+    width: 8.3333%;
+}
+.grid {
+    letter-spacing: -4px;
+    padding: 0 1.5em 1.5em 0;
+}
+.module {
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    letter-spacing: normal;
+    padding: 0 0 1.5em 1.5em;
+    vertical-align: top;
+    width: 25%;
+}
+.module {
+    width: 50%;
+}
+.task-column {
+    max-height: 18em;
+    overflow-y: scroll;
+}
+.grid {
+    padding-right: 0;
+}
+.module {
+    padding-left: 0;
+    width: 100%;
+}
+.module .task-column {
+    max-height: none;
+    overflow: visible;
+}
+.header-wrap {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+}
+.user-menu {
+    font-size: 0.85em;
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+}
+.user-menu .tile {
+    background-color: #C2D7DB;
+    color: rgba(38, 38, 38, 0.8);
+    cursor: pointer;
+    font-weight: 400;
+}
+.user-menu .tile:hover, .user-menu .tile:focus {
+    background-color: #B2D4A6;
+}
+.user-menu .tile:active {
+    background-color: #98C688;
+}
+.user-reporter:after {
+    content: "▾";
+    float: right;
+}
+.stacked > li {
+    display: list-item;
+}
+.stacked > li > a {
+    display: block;
+}
+.flyout, .flyout-alt {
+    position: relative;
+}
+.flyout-content {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    right: -99999px;
+    top: 100%;
+}
+.flyout:hover > .flyout-content {
+    right: 0;
+}
+.flyout-alt:hover > .flyout-content {
+    right: 100%;
+    top: 0;
+}
+.flyout:hover > .flyout-content, .flyout-alt:hover > .flyout-content {
+    height: auto;
+    overflow: visible;
+}
+.flyout .tile {
+    min-width: 5em;
+}
+.stacked .tile {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2);
+    border-image: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    outline: 0 none;
+}
+.site-header {
+    display: table;
+    height: 10.5em;
+}
+.site-header {
+    width: 75%;
+}
+.site-header {
+    width: 66%;
+}
+.site-header {
+    width: 70%;
+}
+.herobox-wrap {
+    display: table-cell;
+    height: 10.5em;
+    vertical-align: middle;
+    width: 10em;
+}
+.hero-stats {
+    display: table-cell;
+    cursor: pointer;
+    margin: 0;
+    min-width: 175px;
+    padding: 0 1.0em;
+    vertical-align: middle;
+    horizontal-align: middle;
+}
+.hero-stats .meter, .hero-stats .bar {
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+}
+.hero-stats .meter {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #111111;
+    filter: none;
+    height: 2.25em;
+    margin: 0 0 1em;
+    opacity: 1;
+    outline: 1px solid rgba(0, 0, 0, 0.2);
+    outline-offset: -1px;
+    overflow: hidden;
+    position: relative;
+}
+.hero-stats .meter:last-of-type {
+    margin-bottom: 0;
+}
+.hero-stats .meter:after {
+    content: attr(title);
+    font-weight: 400;
+    left: -1em;
+    position: absolute;
+    top: 0.4em;
+    transition: all 0.25s ease-out 0s;
+    z-index: -1;
+}
+.hero-stats .meter .bar {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    transition: width 0.25s ease-out 0s;
+}
+.hero-stats .meter:hover:after {
+    left: 1em;
+    z-index: 1;
+}
+.hero-stats .health .bar {
+    background: none repeat scroll 0 0 #D64040;
+}
+.hero-stats .experience .bar {
+    background: none repeat scroll 0 0 #FFCF42;
+}
+.hero-stats .meter-text {
+    line-height: 2.25;
+    position: absolute;
+    right: 0.5em;
+    top: 0;
+    z-index: 1;
+}
+.datepicker {
+    width: 210px;
+}
+html, body, p, h1, ul, li, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+* {
+    -moz-box-sizing: border-box;
+}
+* {
+    font-family: "Lato",sans-serif;
+}
+hr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);
+    border-top: 0 none rgba(0, 0, 0, 0.1);
+}
+.footer {
+    background-color: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+    padding: 70px 0;
+}
+.footer p {
+    color: #777777;
+    margin-bottom: 0;
+}
+.footer-links {
+    margin: 10px 0;
+}
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+#wrap {
+    min-height: 100%;
+    z-index: -1;
+}
+#main {
+    padding-bottom: 250px;
+}
+#wrap {
+    margin-top: 0;
+}
+.token-cost {
+    background-color: #FAFAFA;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 8px;
+    padding: 6px 7px 5px;
+    position: relative;
+}
+.token-cost:before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent #D4D4D4 transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 6px;
+    content: "";
+    display: block;
+    height: 0;
+    margin-right: 0;
+    margin-top: -6px;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    width: 0;
+}
+.token-cost:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent #FAFAFA transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 6px;
+    content: "";
+    display: block;
+    height: 0;
+    margin-right: -1px;
+    margin-top: -6px;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    width: 0;
+}
+.modal {
+    white-space: normal;
+}
+.notification-character {
+    float: left;
+}
+.notification-message {
+    display: inline-block;
+    line-height: 3;
+    padding-right: 1em;
+}
+.notification-action {
+    vertical-align: baseline;
+}
+#reset-modal {
+    z-index: 1500;
+}
+#notification-area {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1001;
+}
