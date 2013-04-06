@@ -11,7 +11,7 @@
   {"title": "List of vice hosts",
    "type": "string",
    "description": "comma separated list of forbidden hosts",
-   "value": "ya.ru,facebook.com,yandex.ru,habrahabr.ru", "name": "viceHosts"}],
+   "value": "facebook.com,reddit.com", "name": "viceHosts"}],
  "contributors":
  [],
  "author": "lexa_",
