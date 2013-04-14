@@ -10,20 +10,23 @@
   },
   {"title": "List of vice hosts",
    "type": "string",
-   "description": "comma separated list of forbidden hosts",
+   "description": "comma separated list of vice hosts(For access to which you will be punished by lowering your HP.)",
    "value": "facebook.com,reddit.com", "name": "viceHosts"}],
  "contributors":
  [],
- "author": "lexa_",
- "url": "",
- "name": "lexa_",
+ "author": "lexa <lexa@cfotr.com>",
+ "url": "https://github.com/",
+ "name": "habitrpg-mozilla",
  "dependencies":
  ["api-utils",
   "addon-kit"],
  "version": "0.0.1",
  "lib": "lib",
- "fullName": "lexa_",
+ "fullName": "Firefox extension for HabitRPG",
  "main": "main",
+ "icon64": "data/favicon64.png",
+ "icon": "data/favicon.png",
  "id": "jid0-KuqNUKRykiXpMJVVZdxrQmJA18w",
- "description": ""
+ "description": "This is a Firefox extension for HabitRPG. HabitRPG is a habit tracker app which treats your goals like a Role Playing Game. Level up as you succeed, lose HP as you fail, earn money to buy weapons and armor. 
+This extension tracking visited websites, and remove health points for visiting vice,entertaining,procrastinate websites."
 }
