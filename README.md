@@ -2,5 +2,7 @@ This is a Firefox extension for HabitRPG. HabitRPG is a habit tracker app which 
 This extension tracking visited websites, and remove health points for visiting vice,entertaining,procrastinate websites.
 
 
-
+TODO:
+Add information about money and user level on panel
+Add Timer to settings page. The user can define time, when he is not be punished for visiting vice websites.
 
