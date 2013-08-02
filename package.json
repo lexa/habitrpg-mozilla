@@ -11,7 +11,14 @@
   {"title": "List of vice hosts",
    "type": "string",
    "description": "comma separated list of vice hosts(For access to which you will be punished by lowering your HP.)",
-   "value": "facebook.com,reddit.com", "name": "viceHosts"}],
+   "value": "facebook.com,reddit.com", "name": "viceHosts"},
+   {
+    "title": "Habit Time",
+    "type": "string",
+    "name": "penaltytime",
+    "description": "Time when penalties for visiting unproductive websites do apply",
+    "value":"0-24"
+    }],
  "contributors":
  [],
  "author": "lexa <lexa@cfotr.com>",
