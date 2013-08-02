@@ -20,7 +20,7 @@
     "value":"0-24"
     }],
  "contributors":
- [],
+ ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix"],
  "author": "lexa <lexa@cfotr.com>",
  "url": "https://github.com/",
  "name": "habitrpg-mozilla",
