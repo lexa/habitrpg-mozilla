@@ -13,6 +13,13 @@
    "description": "comma separated list of vice hosts(For access to which you will be punished by lowering your HP.)",
    "value": "facebook.com,reddit.com", "name": "viceHosts"},
    {
+    "title": "Productive websites",
+    "type": "string",
+    "description":"comma separated list of wesite that gets you stuff done",
+    "value": "habitrpg.com,codecademy.com",
+    "name": "benHost"
+   },
+   { 
     "title": "Habit Time",
     "type": "string",
     "name": "penaltytime",
@@ -27,7 +34,7 @@
  "dependencies":
  ["api-utils",
   "addon-kit"],
- "version": "0.0.1",
+ "version": "0.0.2",
  "lib": "lib",
  "fullName": "Firefox extension for HabitRPG",
  "main": "main",
