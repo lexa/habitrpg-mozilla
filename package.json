@@ -13,11 +13,24 @@
    "description": "comma separated list of vice hosts(For access to which you will be punished by lowering your HP.)",
    "value": "facebook.com,reddit.com", "name": "viceHosts"},
    {
-    "title": "Habit Time",
+    "title": "Productive websites",
     "type": "string",
-    "name": "penaltytime",
+    "description":"comma separated list of wesite that gets you stuff done",
+    "value": "habitrpg.com,codecademy.com",
+    "name": "benHost"
+   },
+   { 
+    "title": "Start Time",
+    "type": "integer",
+    "name": "penaltystart",
     "description": "Time when penalties for visiting unproductive websites do apply",
-    "value":"0-24"
+    "value":"0"
+    },
+    { 
+    "title": "End Time",
+    "type": "integer",
+    "name": "penaltyend",
+    "value":"24"
     }],
  "contributors":
  ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix"],
@@ -27,7 +40,7 @@
  "dependencies":
  ["api-utils",
   "addon-kit"],
- "version": "0.0.1",
+ "version": "0.3",
  "lib": "lib",
  "fullName": "Firefox extension for HabitRPG",
  "main": "main",
