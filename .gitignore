@@ -1,1 +1,5 @@
-sublime-project
+####Files####
+*.sublime*
+*.xpi
+
+

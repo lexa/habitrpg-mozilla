@@ -40,7 +40,7 @@
  "dependencies":
  ["api-utils",
   "addon-kit"],
- "version": "0.0.2",
+ "version": "0.3",
  "lib": "lib",
  "fullName": "Firefox extension for HabitRPG",
  "main": "main",

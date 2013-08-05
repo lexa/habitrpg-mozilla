@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"noti",
+				"notifications.notify"
+			],
+			[
+				"not",
+				"notifications.notify"
+			],
+			[
+				"W",
+				"websites"
+			],
+			[
 				"is_i",
 				"is_penalty_time"
 			],
@@ -19,46 +31,104 @@
 			"file": "lib/main.js",
 			"settings":
 			{
-				"buffer_size": 2425,
+				"buffer_size": 3103,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "{\"license\": \"\",\n \"preferences\":\n [{\"type\": \"string\",\n   \"name\": \"userId\",\n   \"title\": \"User Id\"\n  },\n  {\"type\": \"string\",\n   \"name\": \"apiKey\",\n   \"title\": \"Api key\"\n  },\n  {\"title\": \"List of vice hosts\",\n   \"type\": \"string\",\n   \"description\": \"comma separated list of vice hosts(For access to which you will be punished by lowering your HP.)\",\n   \"value\": \"facebook.com,reddit.com\", \"name\": \"viceHosts\"},\n   {\n    \"title\": \"Habit Time\",\n    \"type\": \"string\",\n    \"name\": \"penaltytime\",\n    \"description\": \"Time when penalties for visiting unproductive websites do apply\",\n    \"value\":\"0-24\"\n    }],\n \"contributors\":\n [\"Sebastian Rust <harlequix@gmail.com> github.com/harlequix\"],\n \"author\": \"lexa <lexa@cfotr.com>\",\n \"url\": \"https://github.com/\",\n \"name\": \"habitrpg-mozilla\",\n \"dependencies\":\n [\"api-utils\",\n  \"addon-kit\"],\n \"version\": \"0.0.2\",\n \"lib\": \"lib\",\n \"fullName\": \"Firefox extension for HabitRPG\",\n \"main\": \"main\",\n \"icon64\": \"data/favicon64.png\",\n \"icon\": \"data/favicon.png\",\n \"id\": \"jid0-KuqNUKRykiXpMJVVZdxrQmJA18w\",\n \"description\": \"This is a Firefox extension for HabitRPG. HabitRPG is a habit tracker app which treats your goals like a Role Playing Game. Level up as you succeed, lose HP as you fail, earn money to buy weapons and armor. This extension tracking visited websites, and remove health points for visiting vice,entertaining,procrastinate websites.\"\n}\n",
 			"file": "package.json",
-			"file_size": 1378,
-			"file_write_time": 130199195719386115,
 			"settings":
 			{
-				"buffer_size": 1378,
+				"buffer_size": 1695,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "This is a Firefox extension for HabitRPG. HabitRPG is a habit tracker app which treats your goals like a Role Playing Game. Level up as you succeed, lose HP as you fail, earn money to buy weapons and armor. \nThis extension tracking visited websites, and remove health points for visiting vice,entertaining,procrastinate websites.\n\n\nTODO:\n- [ ] Add information about money and user level on panel\n- [ ] Implement initial welcome page, to help user find and copy his api key.\nMILESTONES:\n- [ ] Check Timer Settings\n- [ ] Add productive websites\n\nDONE:\n- [ ] Add Timer to settings page. The user can define time, when he is not be punished for visiting vice websites.\n",
-			"file": "README.md",
-			"file_size": 596,
-			"file_write_time": 130199196654460612,
+			"file": "locale/en-US.properties",
 			"settings":
 			{
-				"buffer_size": 665,
+				"buffer_size": 529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/API.js",
+			"settings":
+			{
+				"buffer_size": 2463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 726,
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/C++/C++.sublime-build",
 	"command_palette":
 	{
-		"height": 332.0,
+		"height": 112.0,
 		"selected_items":
 		[
 			[
-				"xd",
-				"Xdebug: Start Debugging"
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git ",
+				"Git: Apply Stash"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"git merge",
+				"Git: Merge"
+			],
+			[
+				"git check",
+				"Git: Checkout"
+			],
+			[
+				"git chec",
+				"Git: Checkout"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git mer",
+				"Git: Merge"
+			],
+			[
+				"git m",
+				"Git: Merge"
+			],
+			[
+				"todo",
+				"Show TODOs: Open files only"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"Package Control: ",
-				"Package Control: Remove Package"
+				"Package Control: Install Package"
+			],
+			[
+				"xd",
+				"Xdebug: Start Debugging"
 			],
 			[
 				"packa",
@@ -69,24 +139,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"git check",
-				"Git: Checkout"
-			],
-			[
 				"git br",
 				"Git: Checkout New Branch"
-			],
-			[
-				"git push",
-				"Git: Push"
-			],
-			[
-				"git comm",
-				"Git: Commit"
-			],
-			[
-				"git add",
-				"Git: Quick Add"
 			],
 			[
 				"git pu",
@@ -117,7 +171,7 @@
 				"Git: Amend Commit"
 			]
 		],
-		"width": 575.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -137,8 +191,14 @@
 	},
 	"file_history":
 	[
-		"/home/jack/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/jack/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/jack/Development/habitrpg-mozilla/README.md",
 		"/home/jack/Development/habitrpg-mozilla/package.json",
+		"/home/jack/Development/habitrpg-mozilla/locale/en-US.properties",
+		"/home/jack/Development/habitrpg-mozilla/lib/API.js",
+		"/home/jack/Development/habitrpg-mozilla/.gitignore",
+		"/home/jack/.config/sublime-text-3/Packages/SearchInProject/README.md",
+		"/home/jack/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/jack/Development/habitrpg/src/server/apiv2.coffee",
 		"/home/jack/.config/sublime-text-3/Packages/sublime-github/GitHub.sublime-settings",
 		"/home/jack/Development/algodat/src/OrderedHeap.java",
@@ -154,9 +214,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -164,6 +225,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"notification_text",
+			"notification",
 			"command"
 		],
 		"highlight": true,
@@ -182,7 +245,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -191,15 +254,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2425,
+						"buffer_size": 3103,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1050,
-								1050
+								1092,
+								1092
 							]
 						],
 						"settings":
@@ -210,7 +273,7 @@
 							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 405.0,
+						"translation.y": 210.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -221,15 +284,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1378,
+						"buffer_size": 1695,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								598,
-								598
+								809,
+								809
 							]
 						],
 						"settings":
@@ -239,26 +302,82 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "README.md",
+					"file": "locale/en-US.properties",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 665,
+						"buffer_size": 529,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								665,
-								665
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/JavaProperties.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/API.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1305,
+								1305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
 							]
 						],
 						"settings":
@@ -313,6 +432,10 @@
 	{
 		"height": 100.0
 	},
+	"output.git-merge":
+	{
+		"height": 100.0
+	},
 	"output.git-push":
 	{
 		"height": 100.0
@@ -355,7 +478,7 @@
 	{
 		"xdebug":
 		{
-			"hide_conflict": true,
+			"hide_conflict": false,
 			"restore_index":
 			{
 				"14":
@@ -402,7 +525,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
