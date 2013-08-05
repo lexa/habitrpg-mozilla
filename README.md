@@ -6,6 +6,7 @@ TODO:
 - [ ] Implement initial welcome page, to help user find and copy his api key.
 - [ ] add active weekdays
 - [ ] show portrait on notification
+- [ ] As habitrpg servers are not so fast, stats in panel updates with some delay. So it's necessary to show placeholder, while data is loading.
 
 MILESTONES:
 
