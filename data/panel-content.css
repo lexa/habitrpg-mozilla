@@ -450,7 +450,7 @@
     background-position: -2907px -20px;
 }
 .shop_weapon_6, .shop_weapon_5, .shop_weapon_4, .shop_weapon_3, .shop_weapon_2, .shop_weapon_1, .shop_shield_5, .shop_shield_4, .shop_shield_3, .shop_shield_2, .shop_shield_1, .shop_head_5, .shop_head_4, .shop_head_3, .shop_head_2, .shop_head_1, .shop_armor_5, .shop_armor_4, .shop_armor_3, .shop_armor_2, .shop_armor_1, .shop_reroll, .shop_potion, .shop_copper, .shop_silver, .shop_gold {
-    background: url("img/sprites/shop_sprites.png") no-repeat scroll 0 0 transparent;
+    background: url("shop_sprites.png") no-repeat scroll 0 0 transparent;
 }
 .shop_weapon_6 {
     background-position: 0 0;
@@ -1104,6 +1104,13 @@ form {
 .avatar-window {
     float: right;
     margin: 0 1em 0 0;
+}
+
+.avatar-level {
+    border-width: 2px;
+    border-color: #60E8F4;
+    background-color: #DFE9EA;
+    font-family: "Lato",sans-serif;
 }
 menu {
     margin: 0;

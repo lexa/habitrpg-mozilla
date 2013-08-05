@@ -6,4 +6,9 @@ self.port.on("update_html", function (stats)
 
     document.getElementById("$2y").innerHTML = Math.round(stats.hp) + "/" + Math.round(stats.maxHealth);
     document.getElementById("$2v").innerHTML = Math.round(stats.exp) + "/" + Math.round(stats.toNextLevel);
+
+    document.getElementById("$au").innerHTML = Math.floor(stats.gp);
+    document.getElementById("$av").innerHTML = Math.round((stats.gp - Math.floor(stats.gp))*100);
+
+    document.getElementById("avatar-level").innerHTML = "Lvl " + stats.lvl;
 });
