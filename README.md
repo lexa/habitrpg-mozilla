@@ -5,11 +5,10 @@ This extension tracking visited websites, and remove health points for visiting 
 TODO:
 - [ ] Add information about money and user level on panel
 - [ ] Implement initial welcome page, to help user find and copy his api key.
-- [ ] check parsing for right time format
 - [ ] add active weekdays
+- [ ] show portrait on notification
 MILESTONES:
-- [ ] Check Timer Settings
-- [ ] Add productive websites
-
 DONE:
-- [ ] Add Timer to settings page. The user can define time, when he is not be punished for visiting vice websites.
+- [x] Add Timer to settings page. The user can define time, when he is not be punished for visiting vice websites.
+- [x] Add productive websites
+- [ ] Check Timer Settings

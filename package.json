@@ -20,11 +20,17 @@
     "name": "benHost"
    },
    { 
-    "title": "Habit Time",
-    "type": "string",
-    "name": "penaltytime",
+    "title": "Start Time",
+    "type": "integer",
+    "name": "penaltystart",
     "description": "Time when penalties for visiting unproductive websites do apply",
-    "value":"0-24"
+    "value":"0"
+    },
+    { 
+    "title": "End Time",
+    "type": "integer",
+    "name": "penaltyend",
+    "value":"24"
     }],
  "contributors":
  ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix"],
