@@ -11,4 +11,13 @@ self.port.on("update_html", function (stats)
     document.getElementById("$av").innerHTML = Math.round((stats.gp - Math.floor(stats.gp))*100);
 
     document.getElementById("avatar-level").innerHTML = "Lvl " + stats.lvl;
+    
+    document.getElementById("splash_screen").style.display = 'none';
+    document.getElementById("splash_screen").innerHTML = '';
+});
+
+self.port.on("show_error_message", function (message)
+{
+    document.getElementById("splash_screen").style.display = 'block';
+    document.getElementById("splash_screen").innerHTML = message;
 });
