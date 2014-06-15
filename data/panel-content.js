@@ -13,11 +13,18 @@ self.port.on("update_html", function (stats)
     document.getElementById("avatar-level").innerHTML = "Lvl " + stats.lvl;
     
     document.getElementById("splash_screen").style.display = 'none';
-    document.getElementById("splash_screen").innerHTML = '';
+    document.getElementById("message").style.display = 'none';
+    document.getElementById("message").innerHTML = '';
 });
 
 self.port.on("show_error_message", function (message)
 {
-    document.getElementById("splash_screen").style.display = 'block';
-    document.getElementById("splash_screen").innerHTML = message;
+    document.getElementById("message").style.display = 'block';
+    document.getElementById("message").innerHTML = message;
+    document.getElementById("splash_screen").style.display = 'none';
 });
+
+self.port.on("show_splash_screen", function ()
+{
+    document.getElementById("splash_screen").style.display = 'block';
+})
