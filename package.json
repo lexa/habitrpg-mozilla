@@ -35,14 +35,14 @@
  "contributors":
  ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix"],
  "author": "lexa <lexa@cfotr.com>",
- "url": "https://github.com/",
+ "url": "https://github.com/lexa/habitrpg-mozilla",
  "name": "habitrpg-mozilla",
  "dependencies":
  ["api-utils",
   "addon-kit"],
  "version": "0.3",
  "lib": "lib",
- "fullName": "Firefox extension for HabitRPG",
+ "fullName": "HabitRPG for Firefox",
  "main": "main",
  "icon64": "data/favicon64.png",
  "icon": "data/favicon.png",
