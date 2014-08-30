@@ -2,7 +2,7 @@ This is a Firefox extension for HabitRPG. HabitRPG is a habit tracker app which 
 This extension tracking visited websites, and remove health points for visiting vice,entertaining,procrastinate websites.
 
 Packaged addon
-https://addons.mozilla.org/en-US/firefox/addon/firefox-extension-for-habitrpg/
+https://addons.mozilla.org/en-US/firefox/addon/habitrpg/
 
 TODO:
 - [ ] add active weekdays
