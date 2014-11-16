@@ -19,14 +19,14 @@
     "value": "habitrpg.com,codecademy.com",
     "name": "benHost"
    },
-   { 
+   {
     "title": "Start Time",
     "type": "integer",
     "name": "penaltystart",
     "description": "Time when penalties for visiting unproductive websites do apply",
     "value":0
     },
-    { 
+    {
     "title": "End Time",
     "type": "integer",
     "name": "penaltyend",
