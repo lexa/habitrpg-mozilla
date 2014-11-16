@@ -42,7 +42,7 @@
   "addon-kit"],
  "version": "0.4.2",
  "lib": "lib",
- "fullName": "HabitRPG for Firefox",
+ "fullName": "HabitRPG for your favorite browser",
  "main": "main",
  "icon64": "data/favicon64.png",
  "icon": "data/favicon.png",
