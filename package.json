@@ -40,7 +40,7 @@
  "dependencies":
  ["api-utils",
   "addon-kit"],
- "version": "0.4.2",
+ "version": "0.4.3",
  "lib": "lib",
  "fullName": "HabitRPG for your favorite browser",
  "main": "main",
