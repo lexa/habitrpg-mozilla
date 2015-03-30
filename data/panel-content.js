@@ -1,4 +1,4 @@
-window.addEventListener('click', function (event) {self.port.emit('clicked')});
+window.addEventListener("click", function (event) {self.port.emit("clicked")});
 self.port.on("update_html", function (stats)
 {
     document.getElementById("$2x").style.width = (stats.hp*100)/stats.maxHealth + "%";
@@ -11,20 +11,20 @@ self.port.on("update_html", function (stats)
     document.getElementById("$av").textContent = Math.round((stats.gp - Math.floor(stats.gp))*100);
 
     document.getElementById("avatar-level").textContent = "Lvl " + stats.lvl;
-    
-    document.getElementById("splash_screen").style.display = 'none';
-    document.getElementById("message").style.display = 'none';
-    document.getElementById("message").textContent = '';
+
+    document.getElementById("splash_screen").style.display = "none";
+    document.getElementById("message").style.display = "none";
+    document.getElementById("message").textContent = "";
 });
 
 self.port.on("show_error_message", function (message)
 {
-    document.getElementById("message").style.display = 'block';
+    document.getElementById("message").style.display = "block";
     document.getElementById("message").textContent = String.quote(message);
-    document.getElementById("splash_screen").style.display = 'none';
+    document.getElementById("splash_screen").style.display = "none";
 });
 
 self.port.on("show_splash_screen", function ()
 {
-    document.getElementById("splash_screen").style.display = 'block';
+    document.getElementById("splash_screen").style.display = "block";
 })
