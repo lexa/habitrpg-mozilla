@@ -41,7 +41,6 @@
  ["api-utils",
   "addon-kit"],
  "version": "0.4.3",
- "lib": "lib",
  "fullName": "HabitRPG for your favorite browser",
  "main": "main",
  "icon64": "data/favicon64.png",
