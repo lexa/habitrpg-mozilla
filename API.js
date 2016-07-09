@@ -16,7 +16,7 @@ function API()
 function make_request(arg)
 {
     let r = Request({
-        url: "https://habitrpg.com" + arg.path,
+        url: "https://habitica.com" + arg.path,
         contentType: "application/json",
         headers: {"x-api-user": Prefs.userId, "x-api-key": Prefs.apiKey},
         content: arg.content
