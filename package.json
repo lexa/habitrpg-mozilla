@@ -35,7 +35,7 @@
     }],
  "contributors":
  ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix", "Gordon Cooper github.com/Co2p"],
- "author": "lexa <lexa@cfotr.com>",
+ "author": "Aleksey Fedotov <lexa@cfotr.com>",
  "name": "habitrpg",
  "dependencies":
  ["api-utils",
