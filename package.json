@@ -1,4 +1,5 @@
-{"license": "",
+{"license": "MIT",
+ "homepage" : "https://github.com/lexa/habitrpg-mozilla",
  "preferences":
  [{"type": "string",
    "name": "userId",
@@ -35,7 +36,6 @@
  "contributors":
  ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix", "Gordon Cooper github.com/Co2p"],
  "author": "lexa <lexa@cfotr.com>",
- "url": "https://github.com/lexa/habitrpg",
  "name": "habitrpg",
  "dependencies":
  ["api-utils",
