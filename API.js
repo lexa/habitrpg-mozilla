@@ -41,7 +41,7 @@ function make_request(arg)
 API.prototype.update_info = function ()
 {
     let r = make_request({api:this,
-                          path:"/api/v1/user",
+                          path:"/api/v3/user",
                           callback:function (api, response) {api.user = response; emit (api, "updated")}});
 
     r.get();

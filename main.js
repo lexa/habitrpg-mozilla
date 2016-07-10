@@ -81,7 +81,7 @@ exports.main = function()
 
     on(api, "updated", function() {
         open_url_on_click = "http://habitrpg.com";
-        info_panel.port.emit("update_html", api.user.stats);
+        info_panel.port.emit("update_html", api.user.data.stats);
     });
 
     on(api, "invalid_credentials", function(error_message) {

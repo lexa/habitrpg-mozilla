@@ -20,7 +20,7 @@ self.port.on("update_html", function (stats)
 self.port.on("show_error_message", function (message)
 {
     document.getElementById("message").style.display = "block";
-    document.getElementById("message").textContent = String.quote(message);
+    document.getElementById("message").textContent = message;
     document.getElementById("splash_screen").style.display = "none";
 });
 
