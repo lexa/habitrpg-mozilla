@@ -45,7 +45,7 @@
     "value":24
     }],
  "contributors":
- ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix", "Gordon Cooper github.com/Co2p"],
+ ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix", "Gordon Cooper github.com/Co2p", "Stanislav Pankratov github.com/spankratov"],
  "author": "Aleksey Fedotov <lexa@cfotr.com>",
  "name": "habitica",
  "dependencies":
