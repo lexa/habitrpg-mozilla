@@ -61,4 +61,15 @@ API.prototype.change_task_rate = function(taskId, direction)
     r.post();
 }
 
+API.prototype.request_task_update = function()
+{
+    let r = make_request({api:this,
+                          path:"/api/v3/tasks/user",
+                          callback:function (api, response) {
+                              emit(api, "user-tasks-updated", response)
+                          }
+                         });
+    r.get()
+}
+
 exports.API = API;
