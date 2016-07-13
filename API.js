@@ -32,7 +32,10 @@ function make_request(arg)
         } else if (! response.json){
             emit (arg.api, "error", _("server_return_not_json:") + response.text);
         } else {
-            arg.callback(arg.api, response.json);
+            if (! response.json.success)
+                emit(arg.api, "error", _("notification_title_error") + " " +_("notification_text_error_p1") + response.status + " " +_("notification_text_error_p2"));
+            else
+                arg.callback(arg.api, response.json.data);
         }
     });
     return r;
