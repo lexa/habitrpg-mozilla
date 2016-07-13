@@ -79,9 +79,9 @@ exports.main = function()
     info_panel.on("hide", function() {panelButton.state('window', {checked: false})});
     panelButton.on("click", function(state) {  if (state.checked) {info_panel.show(); } else {info_panel.hide()};});
 
-    on(api, "updated", function() {
+    on(api, "updated", function(stats) {
         open_url_on_click = "http://habitrpg.com";
-        info_panel.port.emit("update_html", api.user.data.stats);
+        info_panel.port.emit("update_html", stats);
     });
 
     on(api, "invalid_credentials", function(error_message) {

@@ -42,7 +42,7 @@ API.prototype.update_info = function ()
 {
     let r = make_request({api:this,
                           path:"/api/v3/user",
-                          callback:function (api, response) {api.user = response; emit (api, "updated")}});
+                          callback:function (api, response) {emit (api, "updated", response)}});
 
     r.get();
 }
