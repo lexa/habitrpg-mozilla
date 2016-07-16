@@ -51,7 +51,7 @@ var API = {
         //FIXME: wait for bug https://github.com/lefnire/habitrpg/issues/786
         //as workaround sent '{}' in POST body.
         let r = make_request({api:this,
-                              path:"/api/v1/user/task/" + taskId + "/" + direction,
+                              path:"/api/v3/tasks/" + taskId + "/score/" + direction,
                               callback:function (api, response) {api.update_info();},
                               content: "{}"});
         r.post();
