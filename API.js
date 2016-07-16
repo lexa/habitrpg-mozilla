@@ -6,11 +6,6 @@ var Self = require("sdk/self");
 var { on, once, off, emit } = require('sdk/event/core');
 
 
-//emit updated
-function API()
-{
-};
-
 //make a http-object for request to habitrpg.com
 //after accomplishing request run callback with two arguments: api and json from response
 function make_request(arg)
@@ -41,35 +36,37 @@ function make_request(arg)
     return r;
 }
 
-API.prototype.update_info = function ()
-{
-    let r = make_request({api:this,
-                          path:"/api/v3/user",
-                          callback:function (api, response) {emit (api, "updated", response)}});
+var API = {
+    update_info: function ()
+    {
+        let r = make_request({api:this,
+                              path:"/api/v3/user",
+                              callback:function (api, response) {emit (api, "updated", response)}});
 
-    r.get();
-}
+        r.get();
+    },
 
-API.prototype.change_task_rate = function(taskId, direction)
-{
-    //FIXME: wait for bug https://github.com/lefnire/habitrpg/issues/786
-    //as workaround sent '{}' in POST body.
-    let r = make_request({api:this,
-                          path:"/api/v1/user/task/" + taskId + "/" + direction,
-                          callback:function (api, response) {api.update_info();},
-                          content: "{}"});
-    r.post();
-}
+    change_task_rate : function(taskId, direction)
+    {
+        //FIXME: wait for bug https://github.com/lefnire/habitrpg/issues/786
+        //as workaround sent '{}' in POST body.
+        let r = make_request({api:this,
+                              path:"/api/v1/user/task/" + taskId + "/" + direction,
+                              callback:function (api, response) {api.update_info();},
+                              content: "{}"});
+        r.post();
+    },
 
-API.prototype.request_task_update = function()
-{
-    let r = make_request({api:this,
-                          path:"/api/v3/tasks/user",
-                          callback:function (api, response) {
-                              emit(api, "user-tasks-updated", response)
-                          }
-                         });
-    r.get()
+    request_task_update:function()
+    {
+        let r = make_request({api:this,
+                              path:"/api/v3/tasks/user",
+                              callback:function (api, response) {
+                                  emit(api, "user-tasks-updated", response)
+                              }
+                             });
+        r.get()
+    }
 }
 
 exports.API = API;

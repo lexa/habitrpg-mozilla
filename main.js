@@ -10,7 +10,7 @@ var Prefs = require("sdk/simple-prefs").prefs;
 var Request = require("sdk/request").Request;
 var Panel = require("sdk/panel").Panel;
 var Self = require("sdk/self");
-var API = require("API").API;
+var api = require("API").API;
 var _ = require("sdk/l10n").get;
 var { on, once, off, emit } = require('sdk/event/core');
 
@@ -48,7 +48,6 @@ var is_penalty_time = function (){
 
 exports.main = function()
 {
-    let api = new API;
     let open_url_on_click = "http://habitrpg.com"
 
     let panelButton = PanelButton({
