@@ -11,6 +11,7 @@ var Request = require("sdk/request").Request;
 var Panel = require("sdk/panel").Panel;
 var Self = require("sdk/self");
 var api = require("API").API;
+var settings = require("settings").Settings;
 var _ = require("sdk/l10n").get;
 var { on, once, off, emit } = require('sdk/event/core');
 
@@ -121,4 +122,7 @@ exports.main = function()
             }
         });
     });
+
+    // FIXME, remove this ugly hack with 'require'
+    require("sdk/simple-prefs").on("openSettings", function () {settings.open()})
 };
