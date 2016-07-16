@@ -51,7 +51,7 @@
  "dependencies":
  ["api-utils",
   "addon-kit"],
- "version": "0.4.3",
+ "version": "0.5.0",
  "title": "Habitica for your favorite browser",
  "main": "main",
  "icon64": "favicon64.png",
