@@ -1,6 +1,7 @@
 window.addEventListener("click", function (event) {self.port.emit("clicked")});
-self.port.on("update_html", function (stats)
+self.port.on("update_html", function (user_data)
 {
+    stats = user_data.stats;
     document.getElementById("$2x").style.width = (stats.hp*100)/stats.maxHealth + "%";
     document.getElementById("$2z").style.width = (stats.exp*100)/stats.toNextLevel + "%";
 
