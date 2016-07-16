@@ -7,12 +7,16 @@ https://addons.mozilla.org/en-US/firefox/addon/habitrpg/
 TODO:
 - [ ] add active weekdays
 - [ ] show portrait on notification
-
+- [ ] Update welcome page
+- [ ] Make settings page beautiful
+- [ ] Rebrand addon habitrpg -> habitica
+- [ ] I18n of settings page
 
 MILESTONES:
 
 DONE:
 
+- [x] Move to v3 of habitica API
 - [x] Implement initial welcome page, to help user find and copy his api key.
 - [x] Add Timer to settings page. The user can define time, when he is not be punished for visiting vice websites.
 - [x] Add productive websites
