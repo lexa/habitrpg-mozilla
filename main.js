@@ -25,7 +25,7 @@ var is_vice_host = function (host)
     }
 }
 function is_benefical_host (host){
-    let benList = Prefs.benHost;
+    let benList = Prefs.benHosts;
 
     if (benList.match(new RegExp("(?:^|,)[\\.\\w]*"+host+"(?:,|$)"))) {
         return true;

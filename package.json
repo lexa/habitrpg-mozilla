@@ -18,7 +18,7 @@
     "type": "string",
     "description":"comma separated list of wesite that gets you stuff done",
     "value": "habitrpg.com,codecademy.com",
-    "name": "benHost"
+    "name": "benHosts"
    },
    {
     "title": "Start Time",
