@@ -20,7 +20,7 @@
    "type": "string",
    "hidden": true,
    "description": "comma separated list of vice hosts(For access to which you will be punished by lowering your HP.)",
-   "value": "facebook.com,reddit.com", "name": "viceHosts"},
+   "value": "facebook.com,www.reddit.com", "name": "viceHosts"},
    {
     "title": "Productive websites",
     "type": "string",
