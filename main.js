@@ -110,7 +110,7 @@ exports.main = function()
                     title: _("HabitRPG"),
                     text:  _("notification_punish")
                 })
-                api.change_task_rate("productivity", "down");
+                api.change_task_rate(Prefs.taskId, "down");
             }
             if(is_benefical_host(host)&&is_penalty_time()){
                 notifications.notify({
@@ -118,7 +118,7 @@ exports.main = function()
                     //@todo: show gained exp
                     text:  _("notification_reward")
                 })
-                api.change_task_rate("productivity", "up");
+                api.change_task_rate(Prefs.taskId, "up");
             }
         });
     });
