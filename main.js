@@ -39,7 +39,7 @@ var is_penalty_time = function (){
     var time = current_time.getHours();
     if(Prefs.penaltystart>Prefs.penaltyend||Prefs.penaltyend>24){
         notifications.notify({
-            title: _("HabitRPG"),
+            title: _("Habitica"),
             text:  _("time_format_wrong")
         })
         return (false);
@@ -49,11 +49,11 @@ var is_penalty_time = function (){
 
 exports.main = function()
 {
-    let open_url_on_click = "http://habitrpg.com"
+    let open_url_on_click = "http://habitica.com"
 
     let panelButton = PanelButton({
         id: "habit-rpg-button",
-        label: "My HabitRPG Status",
+        label: "My Habitica Status",
         icon: {
             "16" : Self.data.url("favicon.png"),
             "64" : Self.data.url("favicon64.png")
@@ -80,7 +80,7 @@ exports.main = function()
     panelButton.on("click", function(state) {  if (state.checked) {info_panel.show(); } else {info_panel.hide()};});
 
     on(api, "updated", function(stats) {
-        open_url_on_click = "http://habitrpg.com";
+        open_url_on_click = "http://habitica.com";
         info_panel.port.emit("update_html", stats);
     });
 
@@ -107,14 +107,14 @@ exports.main = function()
             if (is_vice_host(host)&&is_penalty_time()) {
                 //punish user
                 notifications.notify({
-                    title: _("HabitRPG"),
+                    title: _("Habitica"),
                     text:  _("notification_punish")
                 })
                 api.change_task_rate(Prefs.taskId, "down");
             }
             if(is_benefical_host(host)&&is_penalty_time()){
                 notifications.notify({
-                    title: _("HabitRPG"),
+                    title: _("Habitica"),
                     //@todo: show gained exp
                     text:  _("notification_reward")
                 })

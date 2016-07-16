@@ -26,7 +26,7 @@
     "type": "string",
     "hidden": true,
     "description":"comma separated list of wesite that gets you stuff done",
-    "value": "habitrpg.com,codecademy.com",
+    "value": "habitica.com,codecademy.com",
     "name": "benHosts"
    },
    {
@@ -47,15 +47,15 @@
  "contributors":
  ["Sebastian Rust <harlequix@gmail.com> github.com/harlequix", "Gordon Cooper github.com/Co2p"],
  "author": "Aleksey Fedotov <lexa@cfotr.com>",
- "name": "habitrpg",
+ "name": "habitica",
  "dependencies":
  ["api-utils",
   "addon-kit"],
  "version": "0.4.3",
- "title": "HabitRPG for your favorite browser",
+ "title": "Habitica for your favorite browser",
  "main": "main",
  "icon64": "favicon64.png",
  "icon": "favicon.png",
  "id": "jid0-KuqNUKRykiXpMJVVZdxrQmJA18w@jetpack",
- "description": "This is a Firefox extension for HabitRPG. HabitRPG is a habit tracker app which treats your goals like a Role Playing Game. Level up as you succeed, lose HP as you fail, earn money to buy weapons and armor. This extension tracking visited websites, and remove health points for visiting vice,entertaining,procrastinate websites."
+ "description": "This is a Firefox extension for Habitica. Habitica is a habit tracker app which treats your goals like a Role Playing Game. Level up as you succeed, lose HP as you fail, earn money to buy weapons and armor. This extension tracking visited websites, and remove health points for visiting vice,entertaining,procrastinate websites."
 }

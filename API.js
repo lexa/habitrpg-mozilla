@@ -1,4 +1,4 @@
-//API for habitRPG
+//API for habitica
 var _ = require("sdk/l10n").get;
 var Request = require("sdk/request").Request;
 var Prefs = require("sdk/simple-prefs").prefs;
@@ -6,7 +6,7 @@ var Self = require("sdk/self");
 var { on, once, off, emit } = require('sdk/event/core');
 
 
-//make a http-object for request to habitrpg.com
+//make a http-object for request to habitica.com
 //after accomplishing request run callback with two arguments: api and json from response
 function make_request(arg)
 {
