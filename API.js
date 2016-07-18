@@ -1,3 +1,4 @@
+
 //API for habitica
 var _ = require("sdk/l10n").get;
 var Request = require("sdk/request").Request;
