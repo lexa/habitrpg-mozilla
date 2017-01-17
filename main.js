@@ -93,6 +93,7 @@ exports.main = function()
     });
 
     on(api, "error", function(error_message) {
+        console.log(error_message)
         info_panel.port.emit("show_error_message", error_message);
         if (! info_panel.isShowing) {
             notifications.notify({
