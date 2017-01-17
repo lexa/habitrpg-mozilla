@@ -125,4 +125,8 @@ exports.main = function()
 
     // FIXME, remove this ugly hack with 'require'
     require("sdk/simple-prefs").on("openSettings", function () {settings.open()})
+
+
+    if (Self.loadReason == "install")
+        settings.open()
 };
