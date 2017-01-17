@@ -1,4 +1,6 @@
 window.addEventListener("click", function (event) {self.port.emit("clicked")});
+document.getElementById("settings_button").addEventListener("click", function (event) {self.port.emit("open_settings")});
+
 self.port.on("update_html", function (user_data)
 {
     stats = user_data.stats;

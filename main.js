@@ -71,6 +71,9 @@ exports.main = function()
         position: panelButton
     });
 
+    //on click to gear icon open settings
+    info_panel.port.on("open_settings", function () {settings.open(); info_panel.hide();});
+
     //on click open new tab and hide panel
     info_panel.port.on("clicked", function () {tabs.open(open_url_on_click); info_panel.hide();});
     //update info every time when user open panel
