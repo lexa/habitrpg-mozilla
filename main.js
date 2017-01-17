@@ -106,6 +106,9 @@ exports.main = function()
     //add event listener on every tab
     tabs.on('open', function(tab){
         tab.on('ready', function(tab){
+            if (!Prefs.taskId)
+                return;
+
             let host = (new Url.URL(tab.url)).host;
             if (is_vice_host(host)&&is_penalty_time()) {
                 //punish user
