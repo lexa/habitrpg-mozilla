@@ -16,6 +16,11 @@
    "hidden": true,
    "title": "Api key"
   },
+  {"type": "string",
+   "name": "taskId",
+   "hidden": true,
+   "title": "Task Id"
+  },
   {"title": "List of vice hosts",
    "type": "string",
    "hidden": true,
