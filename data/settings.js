@@ -6,7 +6,9 @@ saveSettings.onclick = function () {
           "apiKey" : document.getElementById("apiKey").value,
           "taskId" : document.getElementById("taskId").value,
           "viceHosts" : document.getElementById("viceHosts").value,
-          "benHosts" : document.getElementById("benHosts").value
+          "benHosts" : document.getElementById("benHosts").value,
+          "penaltystart" : Number(document.getElementById("penaltystart").value),
+          "penaltyend" : Number(document.getElementById("penaltyend").value),
         })};
 
 self.port.on("set-default-settings", function (settings)

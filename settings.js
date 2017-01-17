@@ -38,7 +38,9 @@ var Settings = {
                                  "apiKey" : Prefs.apiKey,
                                  "taskId" : Prefs.taskId,
                                  "viceHosts" : Prefs.viceHosts,
-                                 "benHosts" : Prefs.benHosts
+                                 "benHosts" : Prefs.benHosts,
+                                 "penaltystart" : Prefs.penaltystart,
+                                 "penaltyend" : Prefs.penaltyend,
                                });
         on(api, "user-tasks-updated", function (user_tasks) {
             worker.port.emit("updateTaskList", user_tasks);
